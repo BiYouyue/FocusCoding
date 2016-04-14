@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 /********************************************************   
-+* @Author: biyouyue 
-+* @Brief: Write a C program to declare two integer  
-+* and one float variables then initialize them to 10, 15,  
-+* and 12.6. It then prints these values on the screen.  
-+* @CreatedTime: 14/4/16.  
-+*********************************************************/
+ @Author: biyouyue 
+ @Brief: Write a C program to declare two integer  
+ and one float variables then initialize them to 10, 15,  
+ and 12.6. It then prints these values on the screen.  
+ @CreatedTime: 14/4/16.  
+*********************************************************/
 
 int main(int argc,char*argv[])
 {
@@ -20,7 +20,4 @@ int main(int argc,char*argv[])
     printf("y=%d",y);printf("\t");
     printf("z=%3.1f",z);
     printf("\n");
-
-    system("PAUSE");
-    return 0;
 }
